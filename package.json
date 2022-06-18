@@ -1,0 +1,20 @@
+{
+	"name": "hoomework",
+	"version": "1.0.0",
+	"description": "TMS",
+	"source": "./src/index.html",
+	"repository": "git@github.com:EgorZubko/TMS-master-repository.git",
+	"author": "Egor Zubko <egor.zubko98@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@parcel/transformer-sass": "2.6.0",
+		"parcel": "^2.6.0"
+	},
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"dependencies": {
+		"sass": "^1.52.2"
+	}
+}
