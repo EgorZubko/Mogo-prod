@@ -7,8 +7,8 @@
 	"author": "Egor Zubko <egor.zubko98@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
-		"@parcel/transformer-sass": "2.6.0",
-		"parcel": "^2.6.0"
+		"@parcel/transformer-sass": "2.6.1",
+		"parcel": "^2.6.1"
 	},
 	"scripts": {
 		"start": "parcel",
