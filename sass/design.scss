@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desing__content {
+    width: calc( 1170px + 15px *2);
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 100%;
+    background: url("../assets/img/design/design.png") center no-repeat;
+    position: relative;
+    background-size: cover;
+
+
+    .text {
+        font-family: 'Kaushan Script';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        color: #2D3033;
+        text-align: center;
+    }
+    
+    .subtitle {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: #2D3033;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 40px 0 40px;
+    }
+    .line {
+        width: 170px;
+        border: 4px solid #F38281;
+        margin: 0 auto;
+    }
+
+    .desing__tab {
+        text-align: center;
+        padding-top: 59px;
+        position: relative;
+    }
+
+    .desing__mob {
+        position: absolute;
+        left: 850px;
+        bottom: -50px;
+    }
+
+    
+    
+
+}
+
+.besing::after {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
