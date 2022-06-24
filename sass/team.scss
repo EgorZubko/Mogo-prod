@@ -1,0 +1,78 @@
+.text {
+	font-family: "Kaushan Script";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 44px;
+	color: #2d3033;
+	text-align: center;
+	padding-top: 70px;
+
+	.subtitle {
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 42px;
+		color: #2d3033;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 40px 0 40px;
+	}
+	.line {
+		width: 170px;
+		border: 4px solid #f38281;
+		margin: 0 auto;
+	}
+
+	.about__descritpion {
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 21px;
+		color: #000000;
+		padding: 50px 0 50px;
+		text-align: center;
+	}
+}
+
+.team__box {
+	display: flex;
+	justify-content: space-between;
+
+	img {
+		background: linear-gradient(
+			360deg,
+			rgba(237, 215, 137, 0.9) 0%,
+			rgba(233, 130, 131, 0.9) 100%
+		);
+	}
+
+	.team__item:hover img {
+		opacity: 0.7;
+		transition: opacity 0.1s linear;
+	}
+	.team__name {
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #2d3033;
+		padding: 28px 0;
+	}
+
+	.team__reviews {
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #2d3033;
+	}
+}
